@@ -16,6 +16,20 @@ The project includes:
 - Random Forest Regression
 - Streamlit Deployment
 
+## Screenshots
+
+### Correlation Heatmap
+
+![Correlation Heatmap](screenshots/heatmap.png)
+
+### Random Forest Feature Importance
+
+![Feature Importance](screenshots/feature_importance.png)
+
+### Streamlit Application
+
+![Streamlit App](screenshots/streamlit_app.png)
+
 ---
 
 ## Dataset
@@ -39,7 +53,17 @@ Target Variable:
 
 - Popularity (0-100)
 
-The dataset used for this project is not included in the repository due to GitHub file size limitations. Place tracks.csv inside the data/ folder before running the notebook.
+## Note
+
+The trained Random Forest model and dataset are not included in the repository due to file size limitations.
+
+To reproduce the project:
+
+1. Download the dataset.
+2. Run the notebook.
+3. Train the model.
+4. Export the model using Joblib.
+5. Run the Streamlit application.
 ---
 
 ## Project Workflow
